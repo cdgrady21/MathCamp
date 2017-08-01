@@ -11,13 +11,14 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Before they arrive:
-- Install R
+# Resources:
 - Basic R tutorial
     - Going to recommend Swirl: http://swirlstats.com/students.html
     - Could use codeschool: https://www.codeschool.com/courses/try-r
     - Could use Datacamp: https://www.datacamp.com/
     - Others?
+- Github with R
+    - http://happygitwithr.com/
 
 # Instructors:
 - Faculty: Alicia.
