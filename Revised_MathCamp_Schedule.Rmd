@@ -1,0 +1,43 @@
+---
+title: "Revised MathCamp Schedule"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Modified/Shortened Schedule
+- Day 1 (Algebra and Calc): 
+    - 1:30pm - 5:30pm, some break in between
+- Day 2 (Probability & Stats) and Day 3 (R):
+    - Questions:  9:30am - 9:45am
+    - Session1:   9:45am - 12:00pm
+    - Lunch:       12:00pm - 1:30pm
+    - Session2:   1:30pm - 3:30pm
+    - Session3:   3:45pm - 5:00pm
+
+## Day 1 (Aug 24): Algebra & Calc
+- **Module One (1:30pm-3:30pm)**
+    - Algebra & calculus (Professor Uribe-McGuire)
+- **Module Two (3:45pm-5:30pm)**
+    - Algebra & calculus (Professor Uribe-McGuire)
+
+## Day 2 (Aug 25): Probability & Statistics, Reading Tables & Plots
+- Questions (9:30am)
+- **Module One (9:45am-12:00pm)**
+    - Probability & statistics (Ekrem)
+- **Module Two (1:30pm-3:30pm)**
+    - Probability & statistics (Lula)
+- **Module Three (3:45pm-5:00pm)**
+    - Reading tables (Jae)
+
+## Day 3 (Aug 26): R, Workflow, Conclusion
+- Questions (9:30am)
+- **Module One (9:45am-12:00pm)**
+    - Introduction to R (Gustavo)
+- **Module Two (1:30pm-3:30pm)**
+    - "Workflow": Rmarkdown, LaTex, Knitr (Wei)
+- **Module Three (3:45pm-5:00pm)**
+    - Summary/Conclusion (Ekrem)
