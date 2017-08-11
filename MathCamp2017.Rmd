@@ -3,8 +3,8 @@ title: "Math Camp 2017"
 author: "Christopher D. Grady"
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -138,3 +138,100 @@ knitr::opts_chunk$set(echo = TRUE)
     - How do algebra, calculus, and statistics help us do social science?
     - What is a statistical model?
     - Why do we want to use statistical models?
+
+
+# Modified/Shortened Schedule
+
+- Three days, short sessions.
+- Review:   9:30am-10:00am
+- Session1: 10:00am-12:00pm
+- Lunch:     12:00pm-1:30pm
+- Session2: 1:30pm-3:30pm
+
+ 1. Day 1 (Aug 24): Algebra & calculus.   
+    - Professor Uribe-McGuire
+ 2. Day 2 (Aug 25): Probability & statistics + reading tables/plots
+    - Ekrem and Lula, Jae
+ 3. Day 3 (Aug 26) R, workflow (Rmarkdown, LaTex, GitHub basics), conclusion.  
+    - Gustavo, Wei, Ekrem
+
+# Details
+
+## Day 1 (Aug 24): Algebra + calc
+- Introduction (1:30pm): math camp, why we did it, how it will prepare them. who is teaching it, any questions?
+- Point of it all
+    - What we use math for: 
+    - Identifying an effect of X on Y
+    - Conditions: when X –> Y?
+    - Mechanism: how X –> Y?
+    - Need mathematics to determine if Y increases as X increases (simple version).
+- **Module One (1:40pm-3:30pm)**
+    - Algebra & calculus
+- **Module Two (3:45pm-5:30pm)**
+    - Algebra & calculus
+
+## Day 2 (Aug 15): Probability & Statistics, Reading tables & plots
+- Review (9:30am)
+    - Review & questions from algebra & calculus
+- **Module One (9:45am-12:00pm)**
+    - Probability & statistics
+    - Statistics as describing variation
+    - Descriptive statistics (means, modes, medians, etc...)
+    - Logic
+    - More advanced topics
+- **Module Two (1:30pm-3:30pm)**
+    - Probability & statistics
+    - Statistics as describing variation
+    - Descriptive statistics (means, modes, medians, etc...)
+    - Logic
+    - More advanced topics
+- **Module Three (3:45pm-5:30pm)**
+    - Reading tables & plots
+    - Regression Tables
+        - coefficients
+        - standard errors
+        - statistical significance
+    - Typical plots: 
+        - barplots
+        - histograms
+        - line graphs
+        - others
+
+## Day 3 (Aug 16): R, Workflow, Conclusion
+- Review (9:30am)
+    - Review & questions from probability & statistics + reading tables/plots
+- **Module One (9:45am-12:00pm)**
+    - Types of data
+        - Characters, factors, numerics
+        - Types of objects
+        - Scalars, vectors, matrices, dataframes.
+    - R programming as a language
+        - Functions are verbs
+        - Objects as direct objects (thing verb acts on)
+    - Basic functions
+    - Structure of data
+        - rows (units of analysis) and columns (variables/characteristics that describe units of analysis)
+        - Indexing [row,column]
+    - Troubleshooting with Google (stackoverflow)
+- **Module Two (1:30pm-3:30pm)**
+    - Workflow: what is workflow?
+    - Data management & replicability
+    - Tools for Workflow: Rmarkdown
+        - code chunks & their options
+        - plots in rmarkdown
+        - inline code
+        - knitting
+    - Tools for Workflow: LaTex
+    - Tools for Workflow: GitHub
+        - Repositories, initializing, cloning, status, pulling, committing, pushing.
+- **Module Three (3:45pm-5:30pm)**
+    - Conclusion
+        - Goal of methods: 
+        - detect effect of X on Y
+        - conditions under which X effects Y
+        - mechanism through which X effects Y
+    - How do algebra, calculus, and statistics help us do social science?
+    - What is a statistical model?
+    - Why do we want to use statistical models?
+    - Asking political science questions
+
